@@ -1,0 +1,7 @@
+RewriteEngine On
+Options +FollowSymlinks
+RewriteBase /
+
+DirectoryIndex public_html/index.php
+
+RewriteRule ^(.*)$ index.php [L]
